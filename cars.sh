@@ -24,7 +24,7 @@ do
 		echo $STR >> My_old_cars.txt
 		echo "Car added";;
 		2) echo "List of cars"
-		cat My_old_cars.txt | sort My_old_cars.txt;;
+		cat My_old_cars.txt | sort My_old_cars.txt | sed 's/:/ /g' My_old_cars.txt;;
 		3) echo "Goodbye";;
 		*) echo "Please choose a valid option";;
 	esac
