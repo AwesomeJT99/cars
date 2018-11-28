@@ -21,10 +21,10 @@ do
 		echo "Model:"
 		read MODEL
 		STR=$YEAR":"$MAKE":"$MODEL
-		echo $STR >> My_old_cars
+		echo $STR >> My_old_cars.txt
 		echo "Car added";;
 		2) echo "List of cars"
-		echo My_old_cars;;
+		cat My_old_cars.txt | sort My_old_cars.txt;;
 		3) echo "Goodbye";;
 		*) echo "Please choose a valid option";;
 	esac

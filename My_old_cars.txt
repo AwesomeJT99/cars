@@ -1,0 +1,9 @@
+1948:Ford:Sedan
+1952:Chevrolet:Coupe
+1960:Ford:Mustang
+1972:Chevrolet:Corvette
+1977:Plymouth:Roadrunner
+2003:Jeep:Liberty
+2015:Ford:F150
+2006:Honda:Pilot
+1925:Ford:T
